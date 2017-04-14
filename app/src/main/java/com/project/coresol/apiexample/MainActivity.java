@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                         if (pDialog.isShowing())
                             pDialog.hide();
 
-                        Log.d("MainActivity",response);
+                        Log.d("MainActivity response",response);
                         try {
                             JSONObject jobj = new JSONObject(response);
                             boolean check = jobj.getBoolean("error");
