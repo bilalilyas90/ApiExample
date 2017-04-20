@@ -1,6 +1,21 @@
 # ApiExample
 volley library usage
 
+config.php
+
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "students";
+
+	// Create connection
+	$conn = mysqli_connect($servername, $username, $password, $dbname);
+	// Check connection
+	if (!$conn) {
+		die("Connection failed: " . mysqli_connect_error());
+	}
+
+
 PHP code for API's is given below
 
 	require_once("config.php");
