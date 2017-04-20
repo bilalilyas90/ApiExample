@@ -2,7 +2,7 @@
 volley library usage
 
 PHP code for API's is given below
-<?php
+
 	require_once("config.php");
 	
 	$response = array();
@@ -58,4 +58,3 @@ PHP code for API's is given below
 		$response['error_msg'] = "action parameter missing";
 	}
 	echo json_encode($response);
-?>
